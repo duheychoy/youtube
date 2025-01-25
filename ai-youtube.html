@@ -3,52 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI YouTube Resources">
     <title>AI YouTube URLs</title>
     <style>
+        :root {
+            --primary: #2c3e50;
+            --bg: #f8f9fa;
+            --card-bg: white;
+            --hover: #e9ecef;
+            --shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+            --radius: 0.5rem;
+            --transition: 0.2s ease;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f0f0f0;
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: min(800px, 90vw);
+            margin-inline: auto;
+            padding: 1.25rem;
+            background: var(--bg);
+            line-height: 1.5;
         }
-        .content {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
+
         .back-link {
-            display: inline-block;
-            margin-bottom: 20px;
-            color: #2c3e50;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary);
             text-decoration: none;
+            margin-block-end: 1rem;
+            padding: 0.5rem;
+            border-radius: var(--radius);
+            transition: all var(--transition);
         }
-        nav {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+        .back-link:hover {
+            background: var(--hover);
+            transform: translateX(-0.25rem);
         }
-        nav ul {
+
+        .content {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        h1 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        ul {
             list-style: none;
             padding: 0;
             margin: 0;
+            display: grid;
+            gap: 0.5rem;
         }
-        nav li {
-            margin: 10px 0;
-        }
-        nav a {
+
+        a {
+            display: block;
             text-decoration: none;
-            color: #2c3e50;
-            font-size: 18px;
-            padding: 5px 10px;
-            border-radius: 4px;
-            transition: background-color 0.3s;
+            color: var(--primary);
+            font-size: 1.125rem;
+            padding: 0.75rem 1rem;
+            border-radius: calc(var(--radius) / 2);
+            transition: all var(--transition);
         }
-        nav a:hover {
-            background-color: #e0e0e0;
+
+        a:hover {
+            background: var(--hover);
+            transform: translateX(0.25rem);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #e9ecef;
+                --bg: #1a1a1a;
+                --card-bg: #242424;
+                --hover: #2c3e50;
+            }
         }
     </style>
 </head>
@@ -56,31 +91,14 @@
     <a href="index.html" class="back-link">← Back to Home</a>
     <div class="content">
         <h1>AI YouTube URLs</h1>
-        <p>A curated list of AI-related YouTube channels and videos:</p>
-        <ul>
-            <li><a href="https://www.youtube.com/@TwoMinutePapers">Two Minute Papers</a> - AI research explained</li>
-            <li><a href="https://www.youtube.com/@lexfridman">Lex Fridman</a> - AI interviews and discussions</li>
-            <li><a href="https://www.youtube.com/@YannicKilcher">Yannic Kilcher</a> - Deep learning paper reviews</li>
-            <li><a href="https://www.youtube.com/@3blue1brown">3Blue1Brown</a> - Math concepts behind AI</li>
-<<<<<<< HEAD
-        </ul>
-=======
-      
-            <li><a href="ai-youtube.html">AI YouTube URLs</a></li>
+        <p>---------------------------------------------------------</p>
+        <p>---------------------------------------------------------</p>
+        <ul>    
+            <li><a href="ai-related.html">AI-related</a></li>
             <li><a href="git.html">Git</a></li>
             <li><a href="bolt.html">Bolt</a></li>
             <li><a href="deepseek.html">Deepseek</a></li>
         </ul>
-    
->>>>>>> e48c50a646e12cd53d0e240a0a4ebbeba1581b7c
     </div>
-    <nav>
-        <ul>
-            <li><a href="ai-youtube.html">AI YouTube URLs</a></li>
-            <li><a href="git.html">Git</a></li>
-            <li><a href="bolt.html">Bolt</a></li>
-            <li><a href="deepseek.html">Deepseek</a></li>
-        </ul>
-    </nav>
 </body>
 </html>
