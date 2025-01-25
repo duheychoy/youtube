@@ -17,6 +17,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
         .back-link {
             display: inline-block;
@@ -24,13 +25,52 @@
             color: #2c3e50;
             text-decoration: none;
         }
+        nav {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            margin: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-size: 18px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #e0e0e0;
+        }
     </style>
 </head>
 <body>
     <a href="index.html" class="back-link">← Back to Home</a>
     <div class="content">
         <h1>AI YouTube URLs</h1>
-        <p>Content for AI YouTube URLs page goes here.</p>
+        <p>A curated list of AI-related YouTube channels and videos:</p>
+        <ul>
+            <li><a href="https://www.youtube.com/@TwoMinutePapers">Two Minute Papers</a> - AI research explained</li>
+            <li><a href="https://www.youtube.com/@lexfridman">Lex Fridman</a> - AI interviews and discussions</li>
+            <li><a href="https://www.youtube.com/@YannicKilcher">Yannic Kilcher</a> - Deep learning paper reviews</li>
+            <li><a href="https://www.youtube.com/@3blue1brown">3Blue1Brown</a> - Math concepts behind AI</li>
+        </ul>
     </div>
+    <nav>
+        <ul>
+            <li><a href="ai-youtube.html">AI YouTube URLs</a></li>
+            <li><a href="git.html">Git</a></li>
+            <li><a href="bolt.html">Bolt</a></li>
+            <li><a href="deepseek.html">Deepseek</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
