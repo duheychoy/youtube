@@ -1,77 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Video Collection</title>
+    <title>Navigation Hub</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-       .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #f0f0f0;
+        }
+        nav {
             background-color: white;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-
-        h2 {
-            color: #333;
+        ul {
+            list-style: none;
+            padding: 0;
         }
-
-       .video-item {
-            margin-bottom: 20px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 10px;
+        li {
+            margin: 10px 0;
         }
-
-       .video-link {
-            color: #0645AD;
+        a {
             text-decoration: none;
-            display: block;
-            margin-bottom: 5px;
+            color: #2c3e50;
+            font-size: 18px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
         }
-
-       .video-link:hover {
-            text-decoration: underline;
-        }
-
-       .video-description {
-            color: #666;
+        a:hover {
+            background-color: #e0e0e0;
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <h2>推荐的YouTube视频</h2>
-        <div class="video-item">
-            <a href="https://youtu.be/FKXRiAiQFiY?si=S_AUcYBRC2GZz2y1" class="video-link" target="_blank">
-                程式與網頁開發者必備技能！Git 和 GitHub 零基礎快速上手，輕鬆掌握版本控制的要訣！
-            </a>
-            <p class="video-description">帮助程序与网页开发者快速掌握Git和GitHub相关的版本控制关键知识。</p>
-        </div>
-        <div class="video-item">
-            <a href="https://www.youtube.com/watch?v=AFMoQqH6t3A" class="video-link" target="_blank">
-                拯救資工系學生的基本素養—如何用 Git & Github 與他人協作開發
-            </a>
-            <p class="video-description">讲解资工系学生如何利用Git和Github进行协作开发，提升基本素养。</p>
-        </div>
-        <div class="video-item">
-            <a href="https://www.youtube.com/watch?v=uegeSwdfWjQ" class="video-link" target="_blank">
-                【GitHub Pages】免費靜態網頁代管　免費架設屬於自己的個人網站｜使用有什麼限制？　如何使用自己的域名？　如何一次改整個帳號的域名？
-            </a>
-            <p class="video-description">介绍GitHub Pages相关内容，包括免费静态网页代管、使用限制以及域名相关操作等知识。</p>
-        </div>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="ai-youtube.html">AI YouTube URLs</a></li>
+            <li><a href="git.html">Git</a></li>
+            <li><a href="bolt.html">Bolt</a></li>
+            <li><a href="deepseek.html">Deepseek</a></li>
+        </ul>
+    </nav>
 </body>
-
 </html>
