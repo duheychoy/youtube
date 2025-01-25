@@ -29,30 +29,16 @@
 <body>
     <a href="index.html" class="back-link">← Back to Home</a>
     <div class="content">
-        <h1>Git</h1>
-        <p>Content for ai-related page goes here.</p>
-        <h2>推荐的ai视频</h2>
-        <div class="video-item">
-            <a href="https://youtu.be/FKXRiAiQFiY?si=S_AUcYBRC2GZz2y1" class="video-link" target="_blank">
-                程式與網頁開發者必備技能！Git 和 GitHub 零基礎快速上手，輕鬆掌握版本控制的要訣！
-            </a>
-            <p class="video-description">帮助程序与网页开发者快速掌握Git和GitHub相关的版本控制关键知识。</p>
-        </div>
-        <div class="video-item">
-            <a href="https://www.youtube.com/watch?v=AFMoQqH6t3A" class="video-link" target="_blank">
-                拯救資工系學生的基本素養—如何用 Git & Github 與他人協作開發
-            </a>
-            <p class="video-description">讲解资工系学生如何利用Git和Github进行协作开发，提升基本素养。</p>
-        </div>
-        <div class="video-item">
-            <a href="https://www.youtube.com/watch?v=uegeSwdfWjQ" class="video-link" target="_blank">
-                【GitHub Pages】免費靜態網頁代管　免費架設屬於自己的個人網站｜使用有什麼限制？　如何使用自己的域名？　如何一次改整個帳號的域名？
-            </a>
-            <p class="video-description">介绍GitHub Pages相关内容，包括免费静态网页代管、使用限制以及域名相关操作等知识。</p>
-        </div>
-
-    </div>
+        <h1>AI YouTube URLs</h1>
+        <p>A curated list of AI-related YouTube channels and videos:</p>
+        <ul>
+            <li><a href="https://www.youtube.com/@TwoMinutePapers">Two Minute Papers</a> - AI research explained</li>
+            <li><a href="https://www.youtube.com/@lexfridman">Lex Fridman</a> - AI interviews and discussions</li>
+            <li><a href="https://www.youtube.com/@YannicKilcher">Yannic Kilcher</a> - Deep learning paper reviews</li>
+            <li><a href="https://www.youtube.com/@3blue1brown">3Blue1Brown</a> - Math concepts behind AI</li>
+       </ul>
     
+    </div>
 </body>
 </html>
 
