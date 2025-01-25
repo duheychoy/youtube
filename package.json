@@ -1,0 +1,9 @@
+{
+  "name": "navigation-hub",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.html dist/ && cp -r assets dist/ 2>/dev/null || true"
+  }
+}
