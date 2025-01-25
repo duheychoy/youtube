@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI YouTube Resources">
+    <title>AI YouTube URLs</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --bg: #f8f9fa;
+            --card-bg: white;
+            --hover: #e9ecef;
+            --shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+            --radius: 0.5rem;
+            --transition: 0.2s ease;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: min(800px, 90vw);
+            margin-inline: auto;
+            padding: 1.25rem;
+            background: var(--bg);
+            line-height: 1.5;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            margin-block-end: 1rem;
+            padding: 0.5rem;
+            border-radius: var(--radius);
+            transition: all var(--transition);
+        }
+
+        .back-link:hover {
+            background: var(--hover);
+            transform: translateX(-0.25rem);
+        }
+
+        .content {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        h1 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            gap: 0.5rem;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 1.125rem;
+            padding: 0.75rem 1rem;
+            border-radius: calc(var(--radius) / 2);
+            transition: all var(--transition);
+        }
+
+        a:hover {
+            background: var(--hover);
+            transform: translateX(0.25rem);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #e9ecef;
+                --bg: #1a1a1a;
+                --card-bg: #242424;
+                --hover: #2c3e50;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Back to Home</a>
+    <div class="content">
+        <h1>AI YouTube URLs</h1>
+        <p>A curated list of AI-related YouTube channels and videos:</p>
+        <ul>    
+            <li><a href="ai-related.html">AI-related</a></li>
+            <li><a href="git.html">Git</a></li>
+            <li><a href="bolt.html">Bolt</a></li>
+            <li><a href="deepseek.html">Deepseek</a></li>
+        </ul>
+    </div>
+</body>
+</html>
