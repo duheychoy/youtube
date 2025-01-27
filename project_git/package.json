@@ -1,0 +1,9 @@
+{
+  "name": "git-reference",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp git.html dist/index.html"
+  }
+}

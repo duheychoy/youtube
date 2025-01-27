@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Quick Reference</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2d333b;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .command-section {
+            margin-bottom: 2rem;
+        }
+
+        .command-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .command-card {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid #e1e4e8;
+        }
+
+        code {
+            background-color: #f1f1f1;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-family: 'Consolas', monospace;
+            color: #0550ae;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e1e4e8;
+        }
+
+        .links a {
+            color: #0366d6;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Git Quick Reference</h1>
+
+        <div class="command-section">
+            <div class="command-grid">
+                <div class="command-card">
+                    <h3>Setup</h3>
+                    <p><code>git config --global user.name "duheychoy"</code></p>
+                    <p><code>git config --global user.email "duheychoy@outlook.com"</code></p>
+                </div>
+
+                <div class="command-card">
+                    <h3>Repository</h3>
+                    <p><code>git init</code></p>
+                    <p><code>git status</code></p>
+                </div>
+
+                <div class="command-card">
+                    <h3>Changes</h3>
+                    <p><code>git add .</code></p>
+                    <p><code>git commit -m "message"</code></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="duheychoy.github.io">Repository</a>
+            <a href="https://youtu.be/FKXRiAiQFiY?si=S_AUcYBRC2GZz2y1">Tutorial Video</a>
+        </div>
+    </div>
+</body>
+</html>
