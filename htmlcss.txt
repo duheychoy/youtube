@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title>yputube htmlcss網站標題title</title>
+  </head>
+  <style>
+    h1{color:red;font-size:medium;}
+    a{color:yellow;}
+    #abc{color:green;}
+    .same{color:blue;font-size:large;font-weight: bold;}
+
+  </style>
+  <body>
+     <p>這是繁體文字內容段落p</p>
+    <h1>這是標題h1</h1>
+    <h2>這是標題h2</h2>
+    <strong>strong</strong>
+    <em>加強/斜體em</em>
+    <br/>換行br
+    <p>這是文字段落p</p>
+    <img src="GBA.jpg" alt="大灣區" width="500" >
+    <img src="biangbiangmian.jpg" alt="biangbiang麵" width="500" >
+ 
+  <p>http://127.0.0.1:5500/htmlcss.html</p>
+  </body>
+  
+</html>
